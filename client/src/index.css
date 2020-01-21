@@ -65,6 +65,18 @@ body {
   background-color: green;
   color: white;
 }
+.edit-button {
+  position: absolute;
+  top: 60px;
+  right: 25px;
+  border: 1px solid grey;
+  padding: 5px 10px;
+  background-color: lightseagreen;
+}
+.edit-button:hover {
+  background-color: green;
+  color: white;
+}
 
 .home-button {
   padding: 5px 10px;
@@ -74,4 +86,22 @@ body {
 .movie-warning {
   color: red;
   text-align: center;
+}
+
+.edit-movie{
+  width: 80%;
+  background: white;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.edit-movie form{
+  width: 100%;
+}
+
+.edit-movie input{
+  width: 90%;
+  margin: 5px auto;
+  height: 50px;
+  padding: 5px;
 }
